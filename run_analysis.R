@@ -1,28 +1,3 @@
-##########################################################################################################
-
-### Coursera Getting and Cleaning Data Course Project
-   Mauro Montauti
-
-## Description:
-
-# This script will perform the following steps:
-
- 1. Download and extract files from zip
- 2. Read Activity Files
- 3. Read Subject Files
- 4. Read Features Files 
- 5. rBinding tables by rows
- 6. Naming Variables
- 7. cBinding data
- 8. Subsetting name of feature by the measurement of the mean and std
- 9. Subsetting data by selected features names
- 10. Reading descriptive activity names
- 11. label dataset
- 12. Creating dataset
-
-##########################################################################################################
-
-
 ## Download and extract files from zip
 if(!file.exists("./data")){dir.create("./data")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
